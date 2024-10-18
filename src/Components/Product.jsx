@@ -1,9 +1,9 @@
 import React from 'react'
 import Btn from './Btn'
 
-function Product({data}) {
+function Product({data, mover, index}) {
   return (
-    <div className="h-[23rem] text-white  flex justify-between p-20">
+    <div onMouseEnter={() => mover(index)} className="h-[23rem] text-white  flex justify-between p-20">
         <h1 className='text-5xl'>{data.name}</h1>
         <div className=" flex flex-col justify-between ">
             <p className='max-w-96 font-semibold'>{data.desc}</p>
