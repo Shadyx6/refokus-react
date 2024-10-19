@@ -39,7 +39,7 @@ function Marquees() {
     <>
       <div className="w-full py-20 relative overflow-hidden">
         {data.map((item, i) => (
-          <Marque key={i} src={item} imageSrcs={item} />
+          <Marque key={i} src={item} imageSrcs={item} index={i} />
         ))}
       </div>
     </>

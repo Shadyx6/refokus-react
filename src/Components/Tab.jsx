@@ -1,11 +1,11 @@
 import React from 'react'
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Btn from './Btn';
-
-function Tab({title, pera, width}) {
+import { motion } from 'framer-motion';
+function Tab({title, pera, width, hover="false"}) {
   return (
     <>
-    <div className={` ${width} bg-[#27272A] text-white p-4 rounded-lg flex flex-col justify-between h-[70vh]`}>
+    <motion.div whileHover={{backgroundColor: hover && "#6A3FE7", padding: "35px"}} className={` ${width} bg-[#27272A] text-white p-4 rounded-lg flex flex-col justify-between h-[70vh]`}>
        <div className="">
        <div className="flex items-center justify-between">
             <h1>Blog</h1>
@@ -19,7 +19,7 @@ function Tab({title, pera, width}) {
             {pera ? <p className='text-gray-400 text-xs '>News and Insights on Web Design, Webflow Development, and Creative Development. </p> : <Btn value='Contact us' /> }
         </div>
       
-    </div>
+    </motion.div>
     </>
   )
 }
