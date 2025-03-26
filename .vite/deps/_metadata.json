@@ -1,0 +1,55 @@
+{
+  "hash": "d7c15486",
+  "configHash": "7e52bad0",
+  "lockfileHash": "4f2f2ce9",
+  "browserHash": "be4176fb",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "21bcda61",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "7b11901f",
+      "needsInterop": true
+    },
+    "locomotive-scroll": {
+      "src": "../../node_modules/locomotive-scroll/dist/locomotive-scroll.modern.mjs",
+      "file": "locomotive-scroll.js",
+      "fileHash": "2e76922c",
+      "needsInterop": false
+    },
+    "framer-motion": {
+      "src": "../../node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "fb4842d9",
+      "needsInterop": false
+    },
+    "react-icons/io": {
+      "src": "../../node_modules/react-icons/io/index.mjs",
+      "file": "react-icons_io.js",
+      "fileHash": "fc28782a",
+      "needsInterop": false
+    },
+    "framer-motion/client": {
+      "src": "../../node_modules/framer-motion/dist/es/client.mjs",
+      "file": "framer-motion_client.js",
+      "fileHash": "8d48ebcd",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-DQZFF3I3": {
+      "file": "chunk-DQZFF3I3.js"
+    },
+    "chunk-32E4H3EV": {
+      "file": "chunk-32E4H3EV.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}
